@@ -9,7 +9,6 @@ class Solution {
       res += Math.pow(ld, noOfDigits);
       temp = Math.floor(temp / 10);
     }
-
     return n === res;
   }
   countDigit(digit) {
