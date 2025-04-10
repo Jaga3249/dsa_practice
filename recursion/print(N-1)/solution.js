@@ -1,8 +1,9 @@
 class Solution {
   PrintNumber(i, n) {
     if (i > n) return;
-    console.log(i);
+
     this.PrintNumber(i + 1, n);
+    console.log(i);
   }
 }
 let n = 5;
